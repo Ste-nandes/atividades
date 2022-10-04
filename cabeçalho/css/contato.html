@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>contato</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="monster-high-monster-high-11563487857gtyckw9x0e.png">
+    </head>
+     <body>
+        <div id="content">
+            <h1 id="contato" aria-setsize="50">contato</h1>
+
+
+            <form name="formulario-de-contato" id="formulario" action="javascript:alert('Feito!')" method="GET">
+               
+               <fieldset id="fieldset">
+                  <legend>dados pessoais</legend>
+
+               <table>
+                <tr>
+                  <td> <label for="first-name"> seu nome: </label> </td>
+                  <td> <input type="text" name="first-name" id="first-name" placeholder="insira aqui seu nome"/> </td>
+                </tr>
+                <tr>
+                   <td> <label for="last-name"> seu sobrenome: </label> </td>
+                   <td><input type="text" name="last-name" id="last-name" placeholder="insira aqui seu sobrenome"/> </td>
+                </tr>
+                <tr> 
+                 <td> <label for="e-mail"> seu e-mail: </label> </td> 
+                 <td> <input type="email" name="e-mail" id="e-mail" placeholder="insira aqui seu e-mail" required/> </td>
+                </tr>
+                <tr>
+                 <td> <label for="senha"> sua senha </label></td>
+                 <td> <input type="password" name="senha" id="senha" placeholder="insira sua senha"> </td>
+                </tr>
+               </div>
+               </table>
+            </fieldset>
+             
+            <fieldset>
+               <legend>seleções das minhas preferências</legend>
+               <p> escolha sua linguagem de programação favorita</p>
+               <input type="radio" name="linguagem-favorita" id="CSS" value="css"/>
+               <label for="css">CSS</label> <br/>
+               <input type="radio" name="linguagem-favorita" id="javaScript" value="JS"/>
+               <label for="javaScript">javaScript</label> <br/>
+               <input type="radio" name="linguagem-favorita" id="html" value="html"/>
+               <label for="HTML">HTML</label> 
+
+               <p>o que já aprendemos?</p>
+               <input type="checkbox" name="conhecimento1" id="conhecimento1" value="imagens"/>
+               <label for="imagens">imagens, links e formatação de texto </label><br/>
+               <input type="checkbox" name="conhecimento2" id="conhecimento2" value="dropdown" disabled/>
+               <label for="dropdown">dropdown menu</label><br/>
+               <input type="checkbox" name="conhecimento3" id="conhecimento3" value="formulários"/>
+               <label for="formulários">formulários</label><br/>
+
+
+               <label for="grupo">seu grupo favorito:</label>
+               <select name="time" id="time">
+                  <option value="#">:: SEU GRUPO FAV ::</option>
+                  <option value="exo">EXO</option> 
+                  <option value="TXT">Tomorrow X Together</option> 
+                  <option value="Enhypen">Enhypen</option>
+               </select> <Br/>
+
+               <p>
+               <label for="color">Selecione sua cor favorita</label>
+               <input type="color" name="color" id="color"/>
+               </p>
+
+               <p>
+                  <label for="data">Selecione seu aniversário</label>
+                  <input type="date" name="date" id="date"/>
+               </p>
+             </form>
+            </fieldset>
+
+            <fieldset>
+               <legend>Outras observações</legend>
+               <textarea name="obs" placeholder="deixe uma mensagem legal aqui" rows="4" cols="50"></textarea>
+
+            <p>
+               <label for="file">Insira aqui uma foto sua:</label>
+               <input type="file" name="file" id="file"/>
+               
+            </p>
+
+            <label for="number">avalie este formulário</label>
+            <input type="number" name="number" id="number" max="10" min="0" step="0.5" value="10"/>
+         </fieldset>
+   
+        </div>
+     </body>
+</html>

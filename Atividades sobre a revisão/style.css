@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#imagem {
+    height: 100px;
+    padding-top: 20px;
+}
+
+
+
+
+h2{
+    background-color: saddlebrown;
+    color:white;
+    width: 135px;
+    text-align: center;
+}
+
+
+
+
+#contato{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: saddlebrown;
+    color: white;
+    width: 100px;
+    float: left;
+}
+
+
+
+#destaques{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+     background-image: url(destaques.jpg);
+     background-repeat:no-repeat ;
+    height: 80px;
+    width: 360px;
+    background-position: left top;
+    border-bottom: #F69E07 1px solid;
+    text-align: center;
+}
+
+#destaques p{
+    font-size:20px;
+}
+
+
+h3{
+    width: 300px;
+    margin: 0px 0px 0px 100px;
+    padding-top: 20px;
+    color: saddlebrown;
+}
+
+navbar li{
+    float: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:saddlebrown;
+    color: white;
+    display: block;
+    padding:5px 0px;
+    text-align: center;
+    width: 150px;
+}
+
+
+navbar li ul{
+    display: none;
+}
+
+navbar li:hover ul{
+    display: block;
+    margin-top: 5px;
+
+}
+
+navbar li:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+
+#left li{
+    list-style: none;
+    marker: none;
+    border:1px solid orangered;
+    background-color: orange;
+    width: 135px;
+    height: 25px;
+    background-image:url(seta_menu.gif);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#left{
+    background-image:url(menu_esq_bg.jpg);
+    width: 135px;
+    height: 800px;
+}
+
+
+body{
+    background-image: url(fundo3.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+
+#right p{
+    float: right;
+    border: 1px solid saddlebrown;
+    color: white;
+    background-color: saddlebrown;
+    margin-top: 0px;
+}
+
+#right #top5{
+    float: right;
+    align-items: center;
+    border-bottom: dotted;
+    margin-top: 100px;
+}
+
+#right li{
+    display: block;
+    height: 100px;
+
+}
+
+footer{
+    text-align: center;
+    background-color:saddlebrown ;
+}
+

@@ -1,0 +1,27 @@
+h1{
+    color: blueviolet;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+}
+
+#paragrafo-1{
+
+    color: blueviolet;
+}
+
+.texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    margin: 55px;
+    border: 12px;
+    align-items: center;
+}
+
+#tamanho{
+    size: 150px;
+    text-align: center;
+}
+    
